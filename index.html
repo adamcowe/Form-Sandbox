@@ -8,7 +8,7 @@
     <body>
          <form id="sample_form">
              <fieldset>
-                 <label for="first"> frost name:</label>
+                 <label for="first"> first name:</label>
                  <input type="text" name="first" placeholder="enter first name"
                  minLength="3" required>
              </fieldset>
@@ -28,5 +28,17 @@
             </fieldset>
             <button id="submit_btn" type="submit">add student</button>
          </form>
+         <section>
+             <table>
+                 <th>first name</th>
+                 <th>last name</th>
+                 <th>enrolled</th>
+                 <th>interested in future stuff?</th>
+                 <tbody id="student_table">
+                     <!--dtnamic data will be inserted here-->
+                 </tbody>
+             </table>
+         </section>
+         <script src="app.js"></script>
     </body>
 </html>
